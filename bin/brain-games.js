@@ -2,4 +2,5 @@
 import { userName } from '../cli.js'
 
 console.log('Welcome to the Brain Games!')
-userName()
+const name = userName()
+console.log(`Hello, ${name}!`)
