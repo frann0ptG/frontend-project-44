@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync'
-import { userName } from '../cli.js'
+import { userName } from '../../cli.js'
 
 const name = userName()
 console.log('Welcome to the Brain Games!')
